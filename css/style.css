@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+header{
+    background-color: rgb(163, 167, 110);
+    height: 120px;
+    padding: 1px;
+    border: 2px solid rgb(20, 29, 6);
+    position: sticky;
+    z-index: 999;
+    align-items: ce;
+}
+
+header.logo{
+    position: sticky;
+    display: inline;
+    align-items: baseline;
+}
+
+header ul li{
+    display: inline;
+    margin: auto;
+    align-items: baseline;
+}
+header ul li a{
+    background-color: rgb(224, 183, 69);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    align-items:initial;
+    position:relative;
+    left: 450px;
+}
+
+body{
+    background-color: rgb(74, 145, 134);
+}
+
+section{
+    padding: 20px 20px 20px 60px;
+    height: auto;
+    margin-left: 2px;
+    overflow: auto;
+ 
+     }
+section h1{
+        color: rgb(27, 31, 21);
+        padding: 20px;
+        font-style: oblique;
+        font-size: 25px;
+    }
+section p{
+        color: rgb(34, 19, 51);
+        padding: 10px;
+        text-align: justify;
+        font-size: 13px;
+     }
+
+section #servicios{
+        column-count: 2;
+  
+     }
+
+#intro{
+        background-color: rgb(142, 150, 76); /*serv*/
+        height: 150px;
+        padding: 30px;
+    }
+
+#clientes{
+        font-style: normal;
+        align-items: center;
+        margin: 30px 20px ;
+        width: 80%;
+    }
+
+
+footer{
+    background-color: rgb(113, 113, 167);
+    height: 100px;
+    padding: 30px;
+    border: 1px solid rgb(66, 104, 10);
+    font-size: 10px;
+    font-style: normal;
+     z-index: 1;
+     
+}
+
+a:link, a:visited {
+    color: rgb(91, 14, 163);
+    text-decoration: underline;
+    cursor: auto;
+  }
+  
+  a:link:active, a:visited:active {
+    color: rgb(185, 148, 27);
+  }
+
+.container{
+    background-color: rgb(138, 149, 204);
+    height: 40px;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    flex-flow: nowrap; /*nowrap*/
+    justify-content: right;
+    position: relative;
+    left: 100px;
+    z-index: 2;
+}
+
+footer #pieitem{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(22, 54, 95);
+    padding: 5px 5px 5px 5px;
+    align-content: center;
+
+}
+#pieitem img {
+    width: 100%;
+    height: auto;
+
+}
+footer p{
+    background-color: rgb(22, 54, 95);
+    color: rgb(61, 190, 230);
+    z-index: 3;
+}
+
+
+.form_contact{
+    color: rgb(30, 30, 66);
+    width: 80%;
+    margin: 30px;
+    padding: 30px 50px 50px 50px;
+    font-size: 10px;
+    font-weight: normal;
+
+}
+.proye{
+    height: auto;
+    width: 80%;
+    align-content: center;
+}
+
+.formulariosusc{
+    width: 800px;
+    align-content: center;
+    background-color: rgb(160, 179, 179);
+    display: block;
+    font-style: normal;
+}
