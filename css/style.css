@@ -5,39 +5,35 @@
     font-size: 15px;
     font-style: oblique;
 }
-
-header{
-    background-color: rgb(163, 167, 110);
-    height: 120px;
+ header{
+    background-color: rgb(232, 235, 182);
+    height: 90px;
     padding: 1px;
     border: 2px solid rgb(20, 29, 6);
-    position: sticky;
+    position: relative;
     z-index: 999;
-    align-items: ce;
+    align-items:stretch;
 }
 
 header.logo{
-    position: sticky;
-    display: inline;
-    align-items: baseline;
+    position:relative;
+    display:flex;
+}
+header ul li{
+    display:inline-flex;
+    margin: auto;
+    align-items:initial;
 }
 
-header ul li{
-    display: inline;
-    margin: auto;
-    align-items: baseline;
-}
 header ul li a{
-    background-color: rgb(235, 185, 47);
+    background-color: rgb(243, 238, 222);
     text-align: center;
     padding: 10px 10px 10px 10px;
-    align-items:initial;
-    position:relative;
-    left: 450px;
-}
+ 
+} 
 
 body{
-    background-color: rgb(182, 160, 65);
+    background-color: rgb(232, 235, 182);
 }
 
 section{
@@ -66,27 +62,30 @@ section #servicios{
      }
 
 #intro{
-        background-color: rgb(184, 194, 92); /*serv*/
-        height: 150px;
+        background-color: rgb(202, 209, 134); /*serv*/
+      align-items: center;
         padding: 30px;
+
     }
 
 #clientes{
         font-style: normal;
         align-items: center;
-        margin: 30px 20px ;
+        margin: 50px 30px ;
         width: 80%;
     }
 
 
 footer{
-    background-color: rgb(169, 177, 99);
+    background-color: rgb(215, 216, 154);
     height: 100px;
-    padding: 30px;
-    border: 1px solid rgb(66, 104, 10);
+    padding: 10px;
+    border: 1px solid rgb(131, 119, 10);
     font-size: 10px;
     font-style: normal;
      z-index: 1;
+     display: flexbox;
+
      
 }
 
@@ -97,16 +96,16 @@ a:link, a:visited {
   }
   
   a:link:active, a:visited:active {
-    color: rgb(136, 109, 18);
+    color: rgb(221, 195, 109);
   }
 
 .container{
-    background-color: rgb(200, 207, 137);
-    height: 40px;
+    background-color: rgb(218, 221, 190);
+    height: 60px;
     width: 80%;
-    padding: 10px;
+    padding: 5px 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
     gap: 1px;
     flex-flow: nowrap; /*nowrap*/
     justify-content: right;
@@ -130,7 +129,7 @@ footer #pieitem{
 }
 footer p{
     background-color: rgb(22, 54, 95);
-    color: rgb(61, 190, 230);
+    color: rgb(139, 218, 241);
     z-index: 3;
 }
 
@@ -153,7 +152,7 @@ footer p{
 .formulariosusc{
     width: 90%;
     align-content: center;
-    background-color: rgb(185, 172, 48);
+    background-color: rgb(216, 213, 189);
     display: block;
     font-style: normal;
 }
