@@ -159,9 +159,19 @@ footer p{
 }
 .suscript{
     align-items:flex-start;
-    max-width: 60%;
+    max-width: 60%; 
     margin: 0;
 
+}
+.suscript input   {
+
+    transition: all 1s;
+
+}
+
+.suscript input:focus  {
+    font-size: 12px;
+    background-color: aqua;
 }
 .form_contact{
     max-width: 70%;
