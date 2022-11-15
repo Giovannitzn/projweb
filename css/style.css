@@ -41,8 +41,7 @@ section{
     height: auto;
     margin-left: 2px;
     overflow: auto;
- 
-     }
+}
 section h1{
         color: rgb(27, 31, 21);
         padding: 20px;
@@ -62,11 +61,11 @@ section #servicios{
      }
 
 #intro{
-        background-color: rgb(202, 209, 134); /*serv*/
-      align-items: center;
+        background-color: rgb(232, 235, 182); /*serv*/
         padding: 30px;
-
-    }
+        max-width: 90%;
+        margin: auto;
+ }
 
 #clientes{
         font-style: normal;
@@ -100,19 +99,20 @@ a:link, a:visited {
   }
 
 .container{
-    background-color: rgb(218, 221, 190);
-    height: 60px;
+    background: linear-gradient(150deg, rgb(238, 238, 171) 50%, rgb(11, 11, 53));
+    height: auto;
     width: 80%;
     padding: 5px 5px;
     display: flex;
     flex-direction: row ;
     gap: 1px;
     flex-flow: nowrap; /*nowrap*/
-    justify-content: right;
+   justify-content: right;
     position: relative;
     left: 100px;
     z-index: 2;
 }
+
 
 footer #pieitem{
     width: 40px;
@@ -149,10 +149,45 @@ footer p{
     align-content: center;
 }
 
+
 .formulariosusc{
-    width: 90%;
-    align-content: center;
     background-color: rgb(216, 213, 189);
+    width: 80%;
+    align-content: center;
     display: block;
     font-style: normal;
 }
+.suscript{
+    align-items:flex-start;
+    max-width: 60%;
+    margin: 0;
+
+}
+.form_contact{
+    max-width: 70%;
+    margin: 0;
+}
+
+.col-sm-8 {
+    background: radial-gradient(200deg, rgb(232, 247, 205) 50%,rgb(232, 235, 182) 40%);
+    max-width: 80%;
+    margin: auto;
+}
+.boxt{
+    width: 70px;
+    height: 50px;
+    border: 2px solid rgb(98, 98, 126);
+    margin: auto;
+    font-size: 20px;
+   
+}
+.boxt.skew{
+    background-color: aqua;
+    transform: skew(-20deg, 0deg);
+    transition:all 10s;
+ }
+ .boxt.skew:hover{
+    background-color: beige;
+    transform: skew(-20deg, 180deg);
+    width: 100px;
+ }
