@@ -212,33 +212,33 @@ footer p{
   
   @keyframes efecto {
     0%{
-        width: 100px;
-        height: 60px;
+        width: 200px;
+        height: 100px;
     }
     50%{
-        width: 150px;
-        background-color: beige;
-        height: 60px;
+        width: 250px;
+        height: 100px;
+
     }
     100%{
         width: 350px;
-        height: 60px;
-
+        height: 100px;
+        background-color: beige;
     }
   }
   .boxAnimat{
     background-color: rgb(223, 223, 87);
-    width: 100px;
-    height: 50px;
-    border: 1px solid rgb(198, 241, 119);
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(208, 248, 134);
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 30px;
     animation: efecto 1s 10s infinite linear;
 
   }
 
   .boxAnimat.translate {
-    background-color: rgb(172, 211, 243);
+    background-color: rgb(186, 208, 226);
     transform: translate(1px, 1px);
     transition: all 10s;
   }
