@@ -1,0 +1,46 @@
+header {
+  background-color: rgb(232, 235, 182);
+  height: 90px;
+  padding: 1px;
+  border: 1px solid rgb(194, 214, 160);
+  position: relative;
+  z-index: 999;
+  align-items: stretch;
+}
+header .logo {
+  position: relative;
+  display: flex;
+}
+header ul li {
+  display: inline-flex;
+  margin: auto;
+  align-items: initial;
+}
+header ul li a {
+  background-color: rgb(243, 238, 222);
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+body {
+  background-color: rgb(232, 235, 182);
+}
+
+section {
+  padding: 20px 20px 20px 60px;
+  height: auto;
+  margin-left: 2px;
+  overflow: auto;
+}
+section h1 {
+  color: rgb(27, 31, 21);
+  padding: 20px;
+  font-style: oblique;
+  font-size: 25px;
+}
+section p {
+  color: rgb(34, 19, 51);
+  padding: 10px;
+  text-align: justify;
+  font-size: 13px;
+}/*# sourceMappingURL=main.css.map */
