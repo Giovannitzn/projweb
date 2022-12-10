@@ -1,5 +1,15 @@
+$colorprimario: rgb(100, 195, 219);
+$mobile: 668px;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+}
 header {
-    background-color: rgb(232, 235, 182);
+    background-color: $colorprimario;
     height: 90px;
     padding: 1px;
     border: 1px solid rgb(194, 214, 160);
@@ -25,8 +35,13 @@ header {
     }
 }
 body{
-    background-color: rgb(232, 235, 182);
+    background-color: $colorprimario;
 }
+#arbol {
+    padding: 20px;
+    text-decoration: solid;
+}
+
 section{
     padding: 20px 20px 20px 60px;
     height: auto;
@@ -45,4 +60,152 @@ section{
             font-size: 13px;
         
     }
+}
+
+.servi {
+    padding: 10px;
+    text-align: justify;
+    display: grid;
+}
+@media (min-width: $mobile ){
+    .form_contact {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+    }
+    .servi{
+        margin: 5px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 668px){
+    .servi{
+        background-color: rgb(202, 214, 179);
+        margin: 5px;
+        grid-template-columns: 1fr;
+    }
+
+    .imagen{
+        padding: 0px;
+        margin: 5px;
+
+    }
+    .form_contact {
+        margin: auto;
+        background-color: rgb(142, 238, 241);
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #clientes{
+        background-color: $colorprimario;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.imagen {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    display:flex;
+}
+#intro{
+    background-color: $colorprimario; /*serv*/
+    padding: 30px;
+    max-width: 90%;
+    margin: auto;
+}
+#clientes{
+    padding: auto;
+    margin: 30px 20px 20px 20 px;
+    width: 80%;
+    font-style: normal;
+    align-items: center;
+
+    }
+
+    footer{
+        background-color: rgb(119, 176, 179);
+        height: 100px;
+        padding: 10px;
+        border: 1px solid rgb(57, 42, 94);
+        font-size: 10px;
+        font-style: normal;
+         z-index: 1;
+         & a:link, a:visited {
+            color: rgb(247, 243, 12);
+            text-decoration: underline;
+            cursor: auto;
+          }
+          
+          & a:link:active, a:visited:active {
+            color: rgb(175, 105, 14);
+          }
+          & .container{
+            background: linear-gradient(150deg, rgb(58, 238, 178) 50%, rgb(100, 195, 219));
+            height: auto;
+            padding: 5px 5px;
+            display: flex;
+            flex-direction: row ;
+            gap: 1px;
+            justify-content: center ;
+            position:relative;
+            left: 10px;
+            z-index: 2;
+        }
+        & #pieitem{
+            width: 40px;
+            height: 40px;
+            background-color: rgb(22, 54, 95);
+            padding: 5px;
+            align-content: center;
+        }
+        
+& #pieitem img {
+    width: 100%;
+    height: auto;
+
+}
+& p{
+    background-color: rgb(11, 77, 20);
+    color: rgb(139, 218, 241);
+    z-index: 3;
+}
+}
+.presenta{
+    background-color: $colorprimario;
+}
+.form_contact{
+    color: rgb(55, 55, 170);
+    margin: 30px;
+    padding: 30px 50px 50px 50px;
+    font-size: 10px;
+    font-weight: normal;
+
+}
+.proye {
+    height: auto;
+    width: 80%;
+    align-content: center;
+}
+
+.formulariosusc{
+    background-color: rgb(216, 213, 189);
+    width: 80%;
+    align-content: center;
+    display: block;
+    font-style: normal;
+}
+.suscript{
+    align-items:flex-start;
+    max-width: 60%; 
+    margin: 0;
+    & input   {
+        transition: all 2s;
+    }
+    & input:focus  {
+        font-size: 12px;
+        background-color: aqua;
+    }
+
 }
