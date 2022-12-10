@@ -6,12 +6,10 @@
     font-style: oblique;
 }
 
-section #servicios{
-        display:contents;
-     }
+
 
 .servi {
-    padding: 20px;
+    padding: 10px;
     text-align: justify;
     display: grid;
 }
@@ -36,8 +34,6 @@ section #servicios{
     .imagen{
         padding: 0px;
         margin: 5px;
-        width: auto;
-        height: auto;
 
     }
     .form_contact {
@@ -56,9 +52,9 @@ section #servicios{
 
 .imagen {
     padding: 5px;
-    width: 300px;
-    height: 300px;
-    margin: auto;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
     display:flex;
 }
 
@@ -90,8 +86,6 @@ footer{
     font-size: 10px;
     font-style: normal;
      z-index: 1;
-     display:flexbox;
-
 }
 
 a:link, a:visited {
@@ -107,15 +101,14 @@ a:link, a:visited {
 .container{
     background: linear-gradient(150deg, rgb(58, 238, 178) 50%, rgb(100, 195, 219));
     height: auto;
-    width: 80%;
     padding: 5px 5px;
     display: flex;
     flex-direction: row ;
     gap: 1px;
-    flex-flow: nowrap; /*nowrap*/
-    justify-content: right;
-    position: relative;
-    left: 100px;
+
+    justify-content: center ;
+    position:relative;
+    left: 10px;
     z-index: 2;
 }
 
@@ -127,7 +120,7 @@ footer #pieitem{
     width: 40px;
     height: 40px;
     background-color: rgb(22, 54, 95);
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     align-content: center;
 
 }
