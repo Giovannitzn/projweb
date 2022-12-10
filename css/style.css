@@ -43,7 +43,7 @@ section #servicios{
 
     }
     #clientes{
-        background-color: rgb(208, 235, 155);
+        background-color: rgb(100, 195, 219);
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -58,7 +58,7 @@ section #servicios{
 }
 
 #intro{
-        background-color: rgb(232, 235, 182); /*serv*/
+        background-color: rgb(100, 195, 219); /*serv*/
         padding: 30px;
         max-width: 90%;
         margin: auto;
@@ -78,10 +78,10 @@ section #servicios{
     text-decoration: solid;
 }
 footer{
-    background-color: rgb(215, 216, 154);
+    background-color: rgb(119, 176, 179);
     height: 100px;
     padding: 10px;
-    border: 1px solid rgb(131, 119, 10);
+    border: 1px solid rgb(57, 42, 94);
     font-size: 10px;
     font-style: normal;
      z-index: 1;
@@ -90,17 +90,17 @@ footer{
 }
 
 a:link, a:visited {
-    color: rgb(91, 14, 163);
+    color: rgb(247, 243, 12);
     text-decoration: underline;
     cursor: auto;
   }
   
   a:link:active, a:visited:active {
-    color: rgb(221, 195, 109);
+    color: rgb(175, 105, 14);
   }
 
 .container{
-    background: linear-gradient(150deg, rgb(238, 238, 171) 50%, rgb(11, 11, 53));
+    background: linear-gradient(150deg, rgb(58, 238, 178) 50%, rgb(100, 195, 219));
     height: auto;
     width: 80%;
     padding: 5px 5px;
@@ -115,7 +115,7 @@ a:link, a:visited {
 }
 
 .presenta{
-    background-color: beige;
+    background-color: rgb(100, 195, 219);
 }
 
 footer #pieitem{
@@ -132,15 +132,14 @@ footer #pieitem{
 
 }
 footer p{
-    background-color: rgb(22, 54, 95);
+    background-color: rgb(11, 77, 20);
     color: rgb(139, 218, 241);
     z-index: 3;
 }
 
 
 .form_contact{
-    color: rgb(30, 30, 66);
-    width: 100%;
+    color: rgb(55, 55, 170);
     margin: 30px;
     padding: 30px 50px 50px 50px;
     font-size: 10px;
@@ -188,26 +187,26 @@ footer p{
 .boxt{
     width: 90px;
     height: 50px;
-    border: 2px solid rgb(98, 98, 126);
+    border: 1px solid rgb(98, 98, 126);
     margin: auto;
     font-size: 20px;
    
 }
 .boxt.skew{
-    background-color: aqua;
+    background-color: rgb(98, 98, 126);
     transform: skew(-20deg, 5deg);
     transition:all 8s;
  }
  .boxt.skew:hover{
-    background-color: beige;
-    transform: skew(-20deg, 30deg);
+    background-color: rgb(116, 70, 155);
+    transform: skew(-20deg, 20deg);
     width: 100px;
  }
  .animate__animated.animate__bounce {
     --animate-duration: 8s;
   }
   .container-fluid{
-    background-color: rgb(247, 247, 176);
+    background-color: rgb(15, 68, 138);
   }
   
   @keyframes efecto {

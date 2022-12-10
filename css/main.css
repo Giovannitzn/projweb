@@ -1,8 +1,8 @@
 header {
-  background-color: rgb(232, 235, 182);
+  background-color: rgb(100, 195, 219);
   height: 90px;
   padding: 1px;
-  border: 1px solid rgb(194, 214, 160);
+  border: 1px solid rgb(217, 243, 171);
   position: relative;
   z-index: 999;
   align-items: stretch;
@@ -17,13 +17,13 @@ header ul li {
   align-items: initial;
 }
 header ul li a {
-  background-color: rgb(243, 238, 222);
+  background-color: rgb(30, 70, 156);
   text-align: center;
   padding: 10px 10px 10px 10px;
 }
 
 body {
-  background-color: rgb(232, 235, 182);
+  background-color: rgb(100, 195, 219);
 }
 
 section {
