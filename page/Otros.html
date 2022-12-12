@@ -57,25 +57,32 @@
         <h1 class="animate__animated animate__bounce">Acabados G&K</h1>
         <br>
         <h3 >Expertos en acabados </h3><br>
-        <div>
-            <img src="../image/saludos.jpg" alt="navidad" >
+        <div align="center">
+            <img src="../image/saludos.jpg"  alt="navidad" >
         </div>
-        <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Saludos de Fiestas</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <p>Desearles a todos una Feliz Navidad</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Mira el mensaje
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Saludo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Para desearles unas felices fiestas, Feliz Navidad y Nuevo Año
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
         <div class="boxAnimat translate">
             <p>Trabajos de Acabados para su casa u oficina, hacer sus ambientes mas plascenteros</p>
         </div>
@@ -84,13 +91,13 @@
     
     <footer id="footer">
         <nav class="menup">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./cliente.html">Clientes</a></li>
-                <li><a href="./contacto.html">Contactenos</a></li>
-            </ul>
-        </nav>
+            <div class="d-flex flex-row mb-3">
+              <div class="p-2"><a href="./index.html">Home</a></div>
+              <div class="p-2"><a href="./page/servicios.html">Servicios</a></div>
+              <div class="p-2"><a href="./page/cliente.html">Clientes</a></div>
+              <div class="p-2"><a href="./page/contacto.html">Contactenos</a></div>
+            </div>
+          </nav>
         <div class="container">
             <div class="boxt skew"><p>G&K Acabados</p></div>
             <div id="pieitem">

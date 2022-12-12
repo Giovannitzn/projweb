@@ -4,8 +4,7 @@ $mobile: 668px;
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-style: oblique;
 }
 header {
@@ -50,20 +49,21 @@ section{
     & h1{
         color: rgb(27, 31, 21);
         padding: 20px;
-        font-style: oblique;
         font-size: 25px;
+        font-style: oblique;
+
     }
         & p{
             color: rgb(34, 19, 51);
             padding: 10px;
             text-align: justify;
-            font-size: 13px;
+            font-size: 15px;
         
     }
 }
 
 .servi {
-    padding: 10px;
+    padding: auto;
     text-align: justify;
     display: grid;
 }
@@ -75,14 +75,16 @@ section{
     .servi{
         margin: 5px;
         grid-template-columns: 1fr 1fr;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 668px){
     .servi{
-        background-color: rgb(202, 214, 179);
+        background-color: rgb(45, 91, 190);
         margin: 5px;
         grid-template-columns: 1fr;
+        font-size: 12px;
     }
 
     .imagen{
@@ -109,24 +111,24 @@ section{
     margin: 15px;
     display:flex;
 }
+
+
 #intro{
     background-color: $colorprimario; /*serv*/
     padding: 30px;
-    max-width: 90%;
     margin: auto;
 }
 #clientes{
-    padding: auto;
-    margin: 30px 20px 20px 20 px;
-    width: 80%;
+    padding: 10px auto;
+    margin: 10px 20px 20px 20px;
+    width: 90%;
     font-style: normal;
     align-items: center;
-
     }
 
     footer{
         background-color: rgb(119, 176, 179);
-        height: 100px;
+        height: 60px;
         padding: 10px;
         border: 1px solid rgb(57, 42, 94);
         font-size: 10px;
@@ -134,8 +136,7 @@ section{
          z-index: 1;
          & a:link, a:visited {
             color: rgb(247, 243, 12);
-            text-decoration: underline;
-            cursor: auto;
+             cursor: auto;
           }
           
           & a:link:active, a:visited:active {
@@ -179,13 +180,13 @@ section{
     color: rgb(55, 55, 170);
     margin: 30px;
     padding: 30px 50px 50px 50px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: normal;
 
 }
 .proye {
     height: auto;
-    width: 80%;
+    width: 100%;
     align-content: center;
 }
 
@@ -204,7 +205,7 @@ section{
         transition: all 2s;
     }
     & input:focus  {
-        font-size: 12px;
+        font-size: 15px;
         background-color: aqua;
     }
 
